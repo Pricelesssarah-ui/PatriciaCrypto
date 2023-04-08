@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 export const StyledBody6 = styled.div`
     width: 100vw;
-    height: 20rem;
+    height: 0;
 
 
 `

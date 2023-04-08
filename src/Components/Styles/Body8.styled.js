@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 
 export const StyledBody8 = styled.div`
-    height: 100vh;
 
 
 
@@ -32,7 +31,7 @@ export const StyledBody8 = styled.div`
 
 
     @media screen and (max-width: 600px) {
-        
+        height: 100vh;
     h1 {
         font-size: 25px;
     }
@@ -141,6 +140,10 @@ export const Body8Text = styled.div`
             }
         
         }
-        
 
+`
+
+export const Body8Button = styled.div`
+    display: flex;
+    justify-content: center;
 `

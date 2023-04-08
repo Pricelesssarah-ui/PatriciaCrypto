@@ -15,12 +15,15 @@ export const Body2Page = styled.div`
     height: 100vh;
 
 
-    @media screen and (max-width: 600px) {
-        display: block;
-    }
-
     @media screen and (max-width: 1200px) {
         display: block;
+        padding: 0.5rem;
+    }
+
+
+    @media screen and (max-width: 600px) {
+        display: block;
+        padding: 0;
     }
 
    

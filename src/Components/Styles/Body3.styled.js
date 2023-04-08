@@ -8,11 +8,11 @@ export const StyledBody3 = styled.div`
     background-color: #036358;
 
 
-        @media screen and (max-width: 600px) {
-            height: 110vh;
+        @media screen and (max-width: 1200px) {
+            height: 120vh;
         }
 
-        @media screen and (max-width: 1200px) {
+        @media screen and (max-width: 600px) {
             height: 110vh;
         }
 `
@@ -48,40 +48,41 @@ export const Body3Text = styled.div`
     }
 
 
-    @media screen and (max-width: 600px) {
-        margin: 2rem 3rem; 
-
-
-        h2 {
-            font-size: 25px;
-            margin: 0;
-            padding-top: 30px;
-        }
-
-        p {
-            margin-top: 20px;
-            font-size: 12px;
-            width: 100%;
-        }
-    }
-
-
         @media screen and (max-width: 1200px) {
-        margin: 2rem 3rem; 
+            margin: 2rem 3rem; 
 
 
-        h2 {
-            font-size: 25px;
-            margin: 0;
-            padding-top: 30px;
+            h2 {
+                font-size: 45px;
+                margin: 0;
+                padding-top: 30px;
+            }
+
+            p {
+                margin-top: 20px;
+                font-size: 20px;
+                width: 100%;
+            }
+        }   
+
+
+        @media screen and (max-width: 600px) {
+            margin: 2rem 3rem; 
+
+
+            h2 {
+                font-size: 25px;
+                margin: 0;
+                padding-top: 30px;
+            }
+
+            p {
+                margin-top: 20px;
+                font-size: 12px;
+                width: 100%;
+            }
         }
 
-        p {
-            margin-top: 20px;
-            font-size: 12px;
-            width: 100%;
-        }
-    }
 
 `
 
@@ -91,12 +92,7 @@ export const Body3Image = styled.div`
     margin: 0;
 
 
-    @media screen and (max-width: 600px) {
-        img {
-            height: 100%;
-            width: 100%;
-        }
-    }
+   
 
     @media screen and (max-width: 1200px) {
         img {
@@ -104,4 +100,5 @@ export const Body3Image = styled.div`
             width: 100%;
         }
     }
+
 `

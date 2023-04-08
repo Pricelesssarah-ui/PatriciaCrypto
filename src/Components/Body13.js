@@ -1,11 +1,14 @@
 import React from 'react';
-import { StyledBody13, Body13Container, Body13Text, InputContainer } from './Styles/Body13.styled'
+import { StyledBody13, Body13Container, Body13Text, InputContainer, Body13Image } from './Styles/Body13.styled'
 
 function Body13() {
   return (
 
     <StyledBody13>
-        <img src='../../../assets/page14Pic1.png' alt='' />
+
+        <Body13Image>
+            <img src='../../../assets/page14Pic1.png' alt='' />
+        </Body13Image>
 
 
 

@@ -10,11 +10,11 @@ export const StyledBody12 = styled.div`
     }
 
     @media screen and (max-width: 600px) {
-       
+      
 
         h1 {
             font-size: 30px;
-            margin-top: 10rem;
+            margin-top: 0;
         }
     }
 `
@@ -26,16 +26,17 @@ export const Body12Container = styled.div`
     margin: 5rem 10rem 5rem 10rem;
 
 
-    @media screen and (max-width: 600px) {
-        display: block;
-        margin: 2rem 1rem 5rem 1rem;
-        width: 90%;
-    }
-    
 
     @media screen and (max-width: 1200px) {
         margin: 5rem 1rem;
     }
+
+    @media screen and (max-width: 600px) {
+        display: block;
+        margin: 1rem 1rem 5rem 1rem;
+        width: 90%;
+    }
+    
 `
 
 
@@ -60,16 +61,18 @@ export const Body12Box = styled.div`
         color: #050503;
     }
 
-    @media screen and (max-width: 600px) {
-        margin: 5px 20px;
-        padding: 30px;
-        width: 90%;
-    }
-
+  
 
     @media screen and (max-width: 1200px) {
         margin: 5px 10px;
         padding: 20px;
         width: 90%;
     }
+
+    @media screen and (max-width: 600px) {
+        margin: 15px 20px;
+        padding: 20px;
+        width: 90%;
+    }
+
 `

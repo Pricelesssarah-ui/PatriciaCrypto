@@ -1,15 +1,17 @@
 import styled from "styled-components";
 
 
+
 export const StyledBody9 = styled.div`
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    height: 100vh;
     width: 100%;
     margin-top: 60px;
 
+
     @media screen and (max-width: 600px) {
+        height: 50vh;
         display: block;
         margin-top: 30rem;
         margin-bottom: 10rem;
@@ -20,35 +22,16 @@ export const Body9Section1 = styled.div`
     margin-left: 10rem;
 
     p {
-        font-weight: bold;
         padding-bottom: 40px;
         line-height: 1.5;
-        width: 30rem;
+        width: 25rem;
+        font-size: 12px;
     }
 
     h1 {
-        margin-bottom: 50px;
+        margin-bottom: 40px;
         color: #006055;
     }
-
-    @media screen and (max-width: 600px) {
-        margin-left: 1rem;
-
-
-        p {
-        padding-bottom: 20px;
-        line-height: 1;
-        width: 20rem;
-        }
-
-        img {
-            width: 90%;
-            height: 35rem;
-            margin: 10px;
-            object-fit: cover;
-        }
-    }
-
 
 
     @media screen and (max-width: 1200px) {
@@ -67,6 +50,31 @@ export const Body9Section1 = styled.div`
             margin: 10px;
         }
     }
+
+    
+
+    @media screen and (max-width: 600px) {
+        margin-left: 1rem;
+
+
+        p {
+            padding-bottom: 20px;
+            line-height: 1;
+            width: 20rem;
+        }
+
+
+        h1 {
+            margin-bottom: 20px;
+        }
+        img {
+            width: 90%;
+            height: 20rem;
+            margin: 10px;
+            object-fit: cover;
+        }
+    }
+
 `
 
 

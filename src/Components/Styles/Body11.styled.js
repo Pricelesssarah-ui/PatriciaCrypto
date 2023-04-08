@@ -3,10 +3,9 @@ import styled from "styled-components";
 
 
 export const StyledBody11 = styled.div`
-    height: 100vh;
     display: flex;
     align-items: center;
-    margin: 30rem 5rem 15rem 5rem;
+    margin: 20rem 5rem 5rem 5rem;
 
     h1 {
         font-size: 50px;
@@ -14,9 +13,12 @@ export const StyledBody11 = styled.div`
     }
 
 
-    @media screen and (max-width: 600px) {
-        display: block;
-        margin: 15rem 1rem 15rem 1rem;
+   
+
+
+    @media screen and (max-width: 1200px) {
+        display: flex;
+        margin: 0 1rem 5rem 1rem;
 
 
         h1 {
@@ -25,9 +27,9 @@ export const StyledBody11 = styled.div`
     }
 
 
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 600px) {
         display: block;
-        margin: 15rem 1rem 15rem 1rem;
+        margin: 15rem 1rem 2rem 1rem;
 
 
         h1 {
@@ -45,6 +47,16 @@ export const Body11Image = styled.div`
         height: 60rem;
         width: 40rem;
         object-fit: cover;
+    }
+    
+
+    @media screen and (max-width: 1200px) {
+        margin: 10px;
+
+        img {
+            height: 30rem;
+            width: 20rem;
+        }
     }
 
     @media screen and (max-width: 600px) {

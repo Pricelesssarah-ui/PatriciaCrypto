@@ -3,23 +3,24 @@ import styled from "styled-components";
 
 export const StyledBody7 = styled.div`
     display: flex;
-    align-item: center;
+    align-items: center;
     justify-content: space-around;
     background: #1c1e2b;
     height: 100vh;
     padding: 150px;
-    margin-top: 30rem;
+    margin-top: 50rem;
 
-
-    @media screen and (max-width: 600px) {
-        display: block;
-        padding: 10px;
-        margin-top: 50rem;
-    }
 
     @media screen and (max-width: 1200px) {
         display: block;
         padding: 10px;
+        margin-top: 35rem;
+    }
+
+    @media screen and (max-width: 600px) {
+        display: block;
+        padding: 10px;
+        margin-top: 70rem;
     }
 `
 
@@ -53,6 +54,12 @@ export const Body7Text = styled.div`
             color: #fff;
         }
     }
+
+
+    @media screen and (max-width: 1200px) {
+        padding: 20px;
+    }
+
 
 
     @media screen and (max-width: 600px) {
@@ -91,33 +98,42 @@ export const Body7Image1 = styled.div`
         }
        
 
+
+        @media screen and (max-width: 1200px) {
+            img {
+                display: none;
+            }
+
+        }
+
+
         @media screen and (max-width: 600px) {
             img {
                 display: none;
             
-        }
+            }
 
         }
 
-
-        
-        @media screen and (max-width: 1200px) {
-            img {
-                display: none;
-            
-        }
-
-        }
     
 `
 
 
 
-export const Body7Image = styled.div`
+export const Body7Image2 = styled.div`
+
+
+    @media screen and (max-width: 1200px) {
+        img {
+            padding: 0 7rem;
+        }
+    }
+
 
     @media screen and (max-width: 600px) {
 
         img {
+            padding: 0;
             margin-top: 20px;
             width: 100%;
         }

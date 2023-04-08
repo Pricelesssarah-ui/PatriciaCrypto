@@ -3,20 +3,25 @@ import styled from "styled-components";
 
 
 export const StyledBody13 = styled.div`
-        
+
+`
+
+export const Body13Image = styled.div`
     img {
-        margin: 0 45rem;
-    }
+            margin: 0 45rem;
+        }
 
-    @media screen and (max-width: 600px) {
-        img {
-        margin: 0 8rem;
-    }
-    }
+        @media screen and (max-width: 1200px) {
+           display: flex;
+           justify-content: center;
+        }
 
 
-    
-
+        @media screen and (max-width: 600px) {
+            img {
+            margin: 0 8rem;
+            }
+        }
 `
 
 
@@ -30,7 +35,11 @@ export const Body13Container = styled.div`
     padding: 1px;
     
 
-
+    @media screen and (max-width: 1200px) {
+        width: 90%;
+        margin: 2rem 2.5rem;
+        text-align: center;
+    }
 
     
     @media screen and (max-width: 600px) {
@@ -38,13 +47,9 @@ export const Body13Container = styled.div`
         margin: 20px;
     }
 
-
-    @media screen and (max-width: 1200px) {
-        width: 90%;
-        margin: 20px;
-    }
-
 `
+
+
 
 
 export const Body13Text = styled.div`
@@ -65,6 +70,22 @@ export const Body13Text = styled.div`
 
 
     
+    @media screen and (max-width: 1200px) {
+      
+      h1 {
+          font-size: 30px;
+          margin-top: 30px;
+      }
+
+      p {
+          padding-left: 10px;
+          width: 30rem;
+          font-size: 12px;
+          margin: 0 auto;
+      }
+  }
+
+
     @media screen and (max-width: 600px) {
       
         h1 {
@@ -79,23 +100,6 @@ export const Body13Text = styled.div`
         }
     }
 
-
-    @media screen and (max-width: 1200px) {
-      
-      h1 {
-          font-size: 25px;
-          margin-top: 20px;
-      }
-
-      p {
-          padding-left: 10px;
-          width: 20rem;
-          font-size: 12px;
-      }
-  }
-
-
-    
 
 `
 

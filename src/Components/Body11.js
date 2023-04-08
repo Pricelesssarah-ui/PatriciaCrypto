@@ -11,7 +11,7 @@ function Body11() {
     <StyledBody11>
 
         <Body11Image>
-            <img src='../../../assets/page12Pic1.png' alt='' />
+          <img src='../../../assets/page12Pic1.png' alt='' />
         </Body11Image>
 
 

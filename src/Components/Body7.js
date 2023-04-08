@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyledBody7, Body7Text, Body7Image1, Body7Image } from './Styles/Body7.styled'
+import { StyledBody7, Body7Text, Body7Image1, Body7Image2 } from './Styles/Body7.styled'
 
 function Body7() {
   return (
@@ -26,9 +26,9 @@ function Body7() {
             <img src='../../../assets/bitcoin.png' alt='' />
         </Body7Image1>
 
-        <Body7Image>
+        <Body7Image2>
             <img src='../../../assets/page8Pic2.png' alt='' />
-        </Body7Image>
+        </Body7Image2>
 
     </StyledBody7>
 

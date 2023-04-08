@@ -20,6 +20,16 @@ export const Body5Text = styled.div`
         color: #85868a;
     }
 
+    @media screen and (max-width: 900px) {
+        margin-top: 0;
+    }
+
+    p {
+        margin: 10px 0;
+        font-size: 10px;
+        padding: 10px;
+    }
+
 
     @media screen and (max-width: 600px) {
         margin-top: 5rem;

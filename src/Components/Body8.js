@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyledBody8, Body8ImageSection, Body8Image, Body8Text } from "./Styles/Body8.styled";
+import { StyledBody8, Body8ImageSection, Body8Image, Body8Text, Body8Button } from "./Styles/Body8.styled";
 
 
 
@@ -48,7 +48,11 @@ function Body8() {
         </Body8ImageSection>
 
 
-        <button>See more</button>
+
+        <Body8Button>
+            <button>See more</button>
+        </Body8Button>
+       
 
     </StyledBody8>
   )

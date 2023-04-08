@@ -14,20 +14,24 @@ export const Body14Image = styled.div`
         margin: 10px 40px;
     }
 
-    @media screen and (max-width: 600px) {
-        img {
-            width: 89.6%;
-            margin: 10px 20px;
-        }
-    }
 
 
     @media screen and (max-width: 1200px) {
         img {
-            width: 89.6%;
+            width: 90%;
             margin: 10px 20px;
         }
     }
+
+    @media screen and (max-width: 600px) {
+        img {
+            width: 89.7%;
+            margin: 10px 20px;
+        }
+    }
+
+
+    
 `
 
 
@@ -45,10 +49,23 @@ export const FooterContainer = styled.div`
 
 
 
+    @media screen and (max-width: 1200px) {
+        margin: -16px 20px;
+        padding: 20px;
+        height: 130vh;
+
+
+        p {
+        font-size: 12px;
+        padding: 10px 0;
+        }
+    }
+
 
     @media screen and (max-width: 600px) {
         margin: -16px 20px;
         padding: 20px;
+        height: 150vh;
 
 
         p {
@@ -57,19 +74,6 @@ export const FooterContainer = styled.div`
         }
     }
     
-
-    
-
-    @media screen and (max-width: 1200px) {
-        margin: -16px 20px;
-        padding: 20px;
-
-
-        p {
-        font-size: 12px;
-        padding: 10px 0;
-        }
-    }
 
 `
 
@@ -82,6 +86,14 @@ export const FooterText = styled.div`
     p {
         font-size: 12px;
     }
+
+    @media screen and (max-width: 600px) {
+        p {
+            font-size: 10px;
+        }
+    }
+
+
 `
 
 
@@ -224,6 +236,24 @@ export const TableContainer = styled.div`
         padding: 10px 90px;
     }
 
+
+    @media screen and (max-width: 1200px) {
+        font-size: 12px;
+        margin: 30px;
+
+        table{
+            padding: 2px 20px;
+            margin: 20px 20px;
+        }
+        
+        tr {
+            margin-left: 10rem;
+        }
+        td, th {
+            padding: 5px 20px;
+        }
+    }
+
     @media screen and (max-width: 600px) {
         font-size: 5px;
         margin: 20px 0;
@@ -237,7 +267,7 @@ export const TableContainer = styled.div`
         }
         td, th {
             margin: 2px;
-            padding: 6px;
+            padding: 2px 6px;
         }
     }
 `
@@ -253,6 +283,16 @@ export const MainFooter = styled.div`
     margin: 0 auto;
 
 
+
+    @media screen and (max-width: 1200px) {
+        padding: 1rem 2rem;
+        margin: 0;
+        color: #fff;
+        display: flex;
+        align-items: flex-start;
+    }
+
+
     @media screen and (max-width: 600px) {
         padding: 10px 0;
         margin: 0;
@@ -262,14 +302,6 @@ export const MainFooter = styled.div`
     }
 
 
-    @media screen and (max-width: 1200px) {
-        padding: 10px 0;
-        margin: 0;
-        color: #fff;
-        display: flex;
-        align-items: flex-start;
-    }
-
 ` 
 
 
@@ -278,6 +310,25 @@ export const FooterLogo = styled.div`
 
   p{
     font-size: 12px;
+  }
+
+
+  @media screen and (max-width: 1200px) {
+    padding:  10px;
+
+
+    img {
+        width: 40%;
+        height: 40%;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+    h5 {
+        font-size: 7px;
+    }
   }
 
 
@@ -300,23 +351,7 @@ export const FooterLogo = styled.div`
   }
 
 
-  @media screen and (max-width: 1200px) {
-    padding:  10px;
-
-
-    img {
-        width: 40%;
-        height: 40%;
-    }
-
-    p{
-        font-size: 5px;
-    }
-
-    h5 {
-        font-size: 7px;
-    }
-  }
+ 
 `
 
 
@@ -328,12 +363,12 @@ export const FooterContact = styled.div`
     }
 
 
-    @media screen and (max-width: 600px) {
-    padding:  10px;
+  @media screen and (max-width: 1200px) {
+    padding:  0 2rem;
 
 
     p{
-        font-size: 5px;
+        font-size: 12px;
     }
 
     h5 {
@@ -341,7 +376,8 @@ export const FooterContact = styled.div`
     }
   }
 
-  @media screen and (max-width: 1200px) {
+
+  @media screen and (max-width: 600px) {
     padding:  10px;
 
 
@@ -364,21 +400,22 @@ export const FooterAddress = styled.div`
     }
 
 
-    @media screen and (max-width: 600px) {
-    padding:  10px 5px;
-
-
-    p{
-        font-size: 5px;
-    }
-
-    h5 {
-        font-size: 7px;
-    }
-  }
-
-
+    
   @media screen and (max-width: 1200px) {
+    padding: 0 2rem;
+    width: 50rem;
+
+
+    p{
+        font-size: 12px;
+    }
+
+    h5 {
+        font-size: 7px;
+    }
+  }
+
+@media screen and (max-width: 600px) {
     padding:  10px 5px;
 
 
@@ -390,44 +427,47 @@ export const FooterAddress = styled.div`
         font-size: 7px;
     }
   }
+
 `
 
 
 export const FooterState = styled.div`
-    padding:  10px 120px;
+    padding:  10px 0;
 
     p{
         font-size: 12px;
     }
 
 
+
+      @media screen and (max-width: 1200px) {
+            padding: 0 2rem;
+            width: 50rem;
+
+            h5 {
+                font-size: 7px;
+            }
+
+            p{
+                font-size: 12px;
+            }
+
+        
+        }
+
     @media screen and (max-width: 600px) {
-    padding:  10px;
+        padding:  10px;
 
-    h5 {
-        font-size: 7px;
+        h5 {
+            font-size: 7px;
+        }
+
+        p{
+            font-size: 5px;
+        }
+
+    
     }
 
-    p{
-        font-size: 5px;
-    }
 
-  
-  }
-
-
-
-  @media screen and (max-width: 1200px) {
-    padding:  10px;
-
-    h5 {
-        font-size: 7px;
-    }
-
-    p{
-        font-size: 5px;
-    }
-
-  
-  }
 `
