@@ -1,10 +1,9 @@
 import styled from "styled-components";
 
 
-
-
 export const StyledBody2 = styled.div`
     background-color: #f7f7f7;
+    width: 100%;
 `
 
 
@@ -12,7 +11,7 @@ export const Body2Page = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100vh;
+    height: 110vh;
 
 
     @media screen and (max-width: 1200px) {
@@ -113,7 +112,7 @@ export const Body2Cards = styled.div`
 `
 
 export const Body2Image = styled.div`
-
+    
 
 
 @media screen and (max-width: 600px) {
@@ -125,9 +124,6 @@ export const Body2Image = styled.div`
     }
 
 }
-
-
-
 
 @media screen and (max-width: 1200px) {
     

@@ -2,9 +2,6 @@ import React from 'react';
 import  { StyledBody2, Body2Page, Body2Text, Body2Cards, Body2Image } from "./Styles/Body2.styled";
 
 
-
-
-
 function Body2() {
   return (
     <StyledBody2>

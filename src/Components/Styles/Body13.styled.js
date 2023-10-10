@@ -3,13 +3,13 @@ import styled from "styled-components";
 
 
 export const StyledBody13 = styled.div`
-
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 `
 
 export const Body13Image = styled.div`
-    img {
-            margin: 0 45rem;
-        }
 
         @media screen and (max-width: 1200px) {
            display: flex;
@@ -28,7 +28,7 @@ export const Body13Image = styled.div`
 export const Body13Container = styled.div`
     background-color: #FFEEA782;
     height: 25rem;
-    margin: 50px 200px;
+    margin: 30px 0;
     border-radius: 50px;
     width: 70rem;
     text-align: center;
@@ -89,7 +89,7 @@ export const Body13Text = styled.div`
     @media screen and (max-width: 600px) {
       
         h1 {
-            font-size: 25px;
+            font-size: 20px;
             margin-top: 20px;
         }
 

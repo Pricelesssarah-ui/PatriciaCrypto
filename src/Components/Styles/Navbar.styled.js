@@ -7,7 +7,7 @@ import{ Link } from "react-router-dom";
 
 export const StyledBackground = styled.div`
     background-image: url(../../../assets/page1Pic1.jpg);
-    width: 100vw;
+    width: 100%;
     height: 130vh;
     background-size: cover;
 
@@ -215,14 +215,14 @@ export const Image = styled.div`
 export const NavText = styled.div`
     padding: 0;
     color: white;
-    margin-left: 30rem;
+    margin-left: 25rem;
+    margin-top: -30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
     h1 {
         font-size: 50px;
         margin: 0;
-        
     }
 
     p {
@@ -292,13 +292,12 @@ export const NavBtn = styled.div`
 
 `
 
+
 export const NavPhoto = styled.div`
     margin-top: -25rem;
     padding: 20px 0;
     margin-left: 50rem;
-
-
-
+   
 
     @media screen and (max-width: 600px) {
        display: none;
@@ -311,17 +310,15 @@ export const NavPhoto = styled.div`
 `
 
 
-
-
 export const NavEdge = styled.div`
-    width:100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     border: 2px solid black;
     background: gray;
     opacity: 0.7;
-    margin-top: -100px;
+    margin-top: -120px;
     bottom: 0;
     position: relative;
 

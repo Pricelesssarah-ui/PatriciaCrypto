@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 
 export const StyledBody3 = styled.div`
-    width: 100vw;
-    height: 143vh;
+    width: 100%;
+    height: 150vh;
     background-color: #036358;
 
 
@@ -20,6 +20,7 @@ export const StyledBody3 = styled.div`
 export const Body3Page = styled.div`
     display: flex;
     justify-content: space-between;
+    height: 100vh;
 
 
     @media screen and (max-width: 600px) {
@@ -91,8 +92,6 @@ export const Body3Text = styled.div`
 export const Body3Image = styled.div`
     margin: 0;
 
-
-   
 
     @media screen and (max-width: 1200px) {
         img {

@@ -6,6 +6,7 @@ export const StyledBody11 = styled.div`
     display: flex;
     align-items: center;
     margin: 20rem 5rem 5rem 5rem;
+    width: 100%;
 
     h1 {
         font-size: 50px;

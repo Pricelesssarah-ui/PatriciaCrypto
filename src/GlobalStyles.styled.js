@@ -3,6 +3,11 @@ import styled, {createGlobalStyle} from "styled-components";
 
 
 export const GlobalStyle = createGlobalStyle`
+    body {
+        width: 100%;
+        white-space: wrap;
+    }
+
     * {
         box-sizing: border-box;
         margin: 0;

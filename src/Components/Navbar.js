@@ -146,19 +146,19 @@ function Navbar() {
                                 </p>
 
                                 <NavBtn>
-                                    <Button>GET IT ON <br />
+                                    <Button>
+                                        GET IT ON <br />
                                         <img src="../../../assets/page1Pic3.png" alt="" />
                                     </Button>
 
                                     <Button>
-                                        <img src="../../../assets/page1Pic4.png" alt="" />
                                         Download on the <br /> App Store
                                     </Button>
                                 </NavBtn>
                             </NavText>
 
                             <NavPhoto>
-                                <img src="../../../assets/page1Pic2.png" alt="" />
+                                <img src="../../../assets/page1Pic2.png" height={600} alt="" />
                             </NavPhoto>
                         </NavBottom>
 

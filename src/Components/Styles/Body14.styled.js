@@ -3,18 +3,17 @@ import styled from "styled-components";
 
 
 export const StyledBody14 = styled.div`
-    
-   
+    width: 100%;
 `
 
-
-
 export const Body14Image = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     img {
-        margin: 10px 40px;
+        width: 94%;
     }
-
-
 
     @media screen and (max-width: 1200px) {
         img {
@@ -38,7 +37,7 @@ export const Body14Image = styled.div`
 export const FooterContainer = styled.div`
     padding: 40px;
     background: #006156;
-    height: 160vh;
+    height: 200vh;
     margin: -16px 40px;
     border: 1.5px solid blue;
 
@@ -181,7 +180,7 @@ export const Logo = styled.div`
 
 
     img {
-       margin: 0 60px;
+       margin: 0 40px;
     }
 
 

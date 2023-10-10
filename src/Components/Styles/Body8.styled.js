@@ -3,9 +3,8 @@ import styled from "styled-components";
 
 
 export const StyledBody8 = styled.div`
-
-
-
+    width: 100%;
+    
     h1 {
         text-align: center;
         padding-top: 40px;

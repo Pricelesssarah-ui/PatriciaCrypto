@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 
 export const StyledBody4 = styled.div`
-    width: 100vw;
+    width: 100%;
     padding-bottom: 5rem;
 
     @media screen and (max-width: 600px) {

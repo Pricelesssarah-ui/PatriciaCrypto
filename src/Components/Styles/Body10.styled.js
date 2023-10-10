@@ -5,6 +5,7 @@ import styled from "styled-components";
 
 export const StyledBody10 = styled.div`
     height: 100vh;
+    width: 100%;
 
     @media screen and (max-width: 1200px) {
         height: 70vh;
@@ -20,7 +21,7 @@ export const Body10Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 100px;
+    padding: 80px 10px 10px 10px;
 
 
 

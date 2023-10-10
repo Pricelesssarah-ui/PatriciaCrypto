@@ -1,13 +1,9 @@
 import styled from "styled-components";
 
-
-
-
-
 export const StyledBody1 = styled.div`
     background: url("../../../assets/page2Pic1.png");
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 
 
@@ -80,7 +76,7 @@ export const Image = styled.div`
     img {
         margin-top: -10rem;
         margin-left: 10rem;
-        width: 40%;
+        width: 35%;
     }
 
 
@@ -116,7 +112,7 @@ export const Image = styled.div`
         display: flex;
         flex-direction: column;
         height: 15rem;
-        width: 40%;
+        width: 35%;
         margin-left: 10rem;
         margin-top: -100px;
         background: #494041;
@@ -128,7 +124,7 @@ export const Image = styled.div`
             margin-top: 120px;
             margin-left: 15px;
             color: white;
-            font-size: 30px;
+            font-size: 25px;
         }
 
         @media screen and (max-width: 1200px) {
@@ -157,7 +153,7 @@ export const Image = styled.div`
             width: 70px;
             height: 3px;
             background-color: #fff;
-            margin-left: 30rem;
+            margin-left: 22rem;
             margin-top: -40px;
 
 

@@ -6,9 +6,10 @@ export const StyledBody7 = styled.div`
     align-items: center;
     justify-content: space-around;
     background: #1c1e2b;
-    height: 100vh;
+    height: 110vh;
     padding: 150px;
     margin-top: 50rem;
+    width: 100%;
 
 
     @media screen and (max-width: 1200px) {
@@ -36,15 +37,16 @@ export const Body7Text = styled.div`
 
 
     p {
-        width: 60%;
+        width: 80%;
         margin: 30px 0;
     }
+
     button {
         background-color: #ffb93f;
         border: none;
         outline: none;
         padding: 10px;
-        width: 30%;
+        width: 40%;
         margin: 20px 0;
         font-weight: bold;
 

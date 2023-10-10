@@ -3,7 +3,8 @@ import styled from "styled-components";
 
 
 export const StyledBody12 = styled.div`
-  
+    width: 100%;
+    
     h1 {
         font-size: 50px;
         text-align: center;
@@ -46,6 +47,7 @@ export const Body12Box = styled.div`
     border-radius: 70px;
     margin: 10px 20px;
     padding: 50px;
+    width: 100%;
 
 
     h5 {

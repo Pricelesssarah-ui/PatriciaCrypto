@@ -15,7 +15,7 @@ function Body3() {
             </Body3Text>
 
             <Body3Image>
-                <img src='../../../assets/page4Pic1.png' alt='' />
+                <img src='../../../assets/page4Pic1.png' height={940} alt='' />
             </Body3Image>
         </Body3Page>
 
